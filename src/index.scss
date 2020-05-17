@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;500;600;800&display=swap');
+
+$main-red: #e85a4f;
+
+html, body {
+  font-family: 'Jost', sans-serif;
+  height: 100%;
+  font-weight: 300;
+  background-color: #404040;
+}
+
+#root {
+  height: 100%;
+}
+
+::placeholder {
+  font-weight: 300;
+}
+
+.btn {
+  &.btn-custom {
+    background-color: $main-red;
+    color: #fff;
+  }
+}
