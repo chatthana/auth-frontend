@@ -19,6 +19,7 @@ export default styled.div`
 
   .card {
     border-radius: 0;
+    border: 0;
     .title-section {
       border-bottom: 1px solid #000;
       .card-title {
@@ -40,6 +41,9 @@ export default styled.div`
       }
       .button-wrapper {
         margin-top: 24px;
+        .btn {
+          border-radius: 0;
+        }
       }
     }
     .footer-section {

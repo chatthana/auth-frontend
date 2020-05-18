@@ -4,7 +4,6 @@ import * as API from './api';
 
 export function* signin(payload) {
   const { token } = yield call(API.signin);
-  console.log(token);
   yield put({ type: actions.SIGNIN_SUCCESS, payload: { token } });
 }
 

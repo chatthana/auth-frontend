@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import MainLayout from '../../components/layouts/main';
+import Strip from '../../components/strip';
 import Styles from './styles';
 import { Card, Form, Button, Row, Col } from 'react-bootstrap';
 
@@ -22,6 +23,7 @@ export default () => {
             <Row>
               <Col>
                 <Card>
+                  <Strip />
                   <Card.Body>
                     <div className="title-section">
                       <h4 className="card-title text-center">Signin</h4>

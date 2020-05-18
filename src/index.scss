@@ -1,13 +1,15 @@
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;500;600;800&display=swap');
 
-$main-red: #e85a4f;
+$main-color: #e85a4f;
+$main-color-darker: #d04d43;
+
 
 html, body {
   font-family: 'Jost', sans-serif;
   height: 100%;
   font-weight: 300;
-  background-color: #404040;
+  background-color: #3a3a3a;
 }
 
 #root {
@@ -20,7 +22,10 @@ html, body {
 
 .btn {
   &.btn-custom {
-    background-color: $main-red;
+    background-color: $main-color;
     color: #fff;
+    &:hover {
+      background-color: $main-color-darker;
+    }
   }
 }
